@@ -1,12 +1,12 @@
-CYP2C19 Genotype-Specific Voriconazole PBPK Model
+**CYP2C19 Genotype-Specific Voriconazole PBPK Model**
 
-We developed a CYP2C19 genotype-specific adult physiologically based pharmacokinetic (PBPK) model of voriconazole to assess the impact of CYP3A inhibition on single-dose and steady-state voriconazole exposure across CYP2C19 phenotypes (extensive, normal, intermediate, and poor metabolizers).
+The presented CYP2C19 genotype-specific adult physiologically based pharmacokinetic (PBPK) model of voriconazole was used to assess the impact of CYP3A inhibition on single-dose and steady-state voriconazole exposure across CYP2C19 phenotypes (extensive, normal, intermediate, and poor metabolizers).
 
-The model incorporates clearance mediated through CYP3A4, CYP2C19, and flavin-containing monooxygenase 3 (FMO3). It also includes time-dependent CYP3A4 autoinhibition by voriconazole. Model development used 20% of identified observed genotype-specific voriconazole concentration-time profiles (i.e., datasets), and evaluation was performed with the remaining 80% of observed datasets. Information on the model development workflow and evaluation metrics will be summarized after the manuscript publication.
+This model incorporates clearance mediated through CYP3A4, CYP2C19, and flavin-containing monooxygenase 3 (FMO3) along with VCZ's time-dependent CYP3A autoinhibiton. To develop this model we utilized 20% of observed genotype-specific voriconazole concentration-time profiles (i.e., datasets) extracted from the published clinical studies evaluating intravenous and oral voriconazole pharmacokinetics (single/multiple doses) and drug drug interactions (i.e., with CYP3A4 substrates and CYP3A inhibitors). Model evaluations were performed with the remaining 80% of the observed datasets using qualitative (i.e., visual predictive checks) and quantitative (i.e., average fold error, absolute average fold error, drug-drug interaction ratio (fold error)) metrics. Key findings, along with detailed information on the model development workflow and evaluation metrics, are described in a manuscript under review.
 
+**Description of the Repository Files**
 
-This reposritory consists of the following files
 1. VCZ PBPK CYP3A DDI (Model Application).json
-   Final model-predicted voriconazole–CYP3A inhibitor drug–drug interaction simulations.
+   -Final model based voriconazole and CYP3A inhibitor (i.e., erythromycin or clarithromycin) drug–drug interaction simulations.
 2. VCZ PBPK (Model Development and evaluation).json
-   Final model predictions for observed 
+   -Final voriconazole model simulations for development and evaluation datasets.
